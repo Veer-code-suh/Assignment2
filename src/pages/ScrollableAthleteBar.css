@@ -1,0 +1,22 @@
+.scrollable-bar {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.level {
+  flex-shrink: 0;
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.athlete {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
